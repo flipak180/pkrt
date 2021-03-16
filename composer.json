@@ -1,23 +1,23 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "flipak180/pkrt",
     "type": "library",
-    "description": ":package_description",
+    "description": "test task",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "flipak180",
+        "pkrt"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/flipak180/pkrt",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Nikita",
+            "email": "flipak180@mail.ru",
+            "homepage": "https://github.com/flipak180",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : "~7.2"
+        "php" : ">=8.0"
     },
     "require-dev": {
         "phpunit/phpunit" : ">=8.0",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "flipak180\\pkrt\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "flipak180\\pkrt\\": "tests"
         }
     },
     "scripts": {
